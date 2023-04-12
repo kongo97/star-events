@@ -1,0 +1,80 @@
+.cover
+{
+    background-color: rgba(24, 25, 27, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.covered
+{
+    opacity: 0.5 !important;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.italic
+{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.3em;
+}
+
+.free-progress
+{
+    height: 3px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.min-width
+{
+    width: 10px;
+    min-width: fit-content;
+}
+
+.min-width:hover
+{
+    width: 100%;
+    transition: width 1s;
+}
+
+.min-width:hover > .free-progress
+{
+    width: 100%;
+    height: auto;
+    max-height: 80px;
+    transition: width 1s;
+    border-top: 3px solid yellow;
+    background-color: #141313;
+    padding: 5px;
+}
+
+.yellow
+{
+    color: yellow;
+}
+
+.info-right
+{
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.info-left
+{
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+a.active
+{
+    color: yellow;
+}
