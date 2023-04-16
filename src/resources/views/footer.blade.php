@@ -3,7 +3,7 @@
     <div class="container-fluid pl30 pr30">
         <div class="row align-items-middle">
             <div class="col-md-3">
-                <img src="images-artist/logo.png" class="logo-small" alt=""><br>
+                <span class="firma"><span class="yellow material-symbols-outlined">star</span><sub>Allestimenti</sub><br>Star Events</span><br>
             </div>
 
             <div class="col-md-6">

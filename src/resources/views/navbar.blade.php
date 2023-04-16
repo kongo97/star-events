@@ -39,6 +39,10 @@
                                 class="@if($page == 'contattaci') active @endif" 
                             >Contattaci</a>
                             </li>
+                            <li><a 
+                                href=""><span id="icon-theme" class="material-symbols-outlined">star_half</span>
+                            </a>
+                            </li>
                         </ul>
                     </nav>
                     <!-- mainmenu close -->

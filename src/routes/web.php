@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layout', ["page" =>"home"]);
-});
-
-Route::get('/galleria', function () {
-    return view('layout', ["page" =>"galleria"]);
-});
+Route::get('/', [SiteController::class, 'home']);
+Route::get('/galleria', [SiteController::class, 'gallery']);

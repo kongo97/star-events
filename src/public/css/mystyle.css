@@ -16,10 +16,22 @@
     filter: grayscale(100%);
 }
 
+.covered:hover
+{
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter: none;
+}
+
 .italic
 {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 1.3em;
+}
+
+.firma
+{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2em;   
 }
 
 .free-progress
@@ -77,4 +89,31 @@
 a.active
 {
     color: yellow;
+}
+
+#icon-theme
+{
+    font-size: 2.0em;
+    margin-top: 3px;
+}
+
+.h100
+{
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 100px;
+}
+
+.h50
+{
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 50px;
+}
+
+.de_large-portfolio h2
+{
+    font-size: 9em;
 }

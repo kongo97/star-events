@@ -1,6 +1,7 @@
 
         <!-- header close -->
-
+        <div class="h100"></div>
+        <div class="h50"></div>
         <!-- content begin -->
         <div id="content" class="no-top no-bottom">
 
