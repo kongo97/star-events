@@ -117,3 +117,12 @@ a.active
 {
     font-size: 9em;
 }
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .de_large-portfolio h2 
+    {
+        font-size: 2em;
+        margin-bottom: 4em;
+    }
+}
