@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="images/logo.webp" type="image/gif" sizes="16x16">
+    <link rel="icon" href="/images/logo.webp" type="image/gif" sizes="16x16">
     <title>S T A R | E V E N T S - Allestimenti</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,27 +18,32 @@
 
     <!-- CSS Files
     ================================================== -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
-    <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" id="bootstrap-grid" />
-    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" id="bootstrap-reboot" />
-    <link href="css/plugins.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/color.css" rel="stylesheet" type="text/css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
+    <link href="/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" id="bootstrap-grid" />
+    <link href="/css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" id="bootstrap-reboot" />
+    <link href="/css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/color.css" rel="stylesheet" type="text/css">
 
     <!-- color scheme -->
-	<link rel="stylesheet" href="css/colors/yellow-2.css" type="text/css" id="colors">
-    <link rel="stylesheet" href="css/color.css" type="text/css">
+	<link rel="stylesheet" href="/css/colors/yellow-2.css" type="text/css" id="colors">
+    <link rel="stylesheet" href="/css/color.css" type="text/css">
 
     <!-- load fonts -->
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
-    <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
+    <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="/fonts/elegant_font/HTML_CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="/fonts/et-line-font/style.css" type="text/css">
 
 	<!-- custom CSS -->
-	<link rel="stylesheet" href="css/custom-artist.css" type="text/css">
+	<link rel="stylesheet" href="/css/custom-artist.css" type="text/css">
 
     <!-- my style -->
-    <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+    <link href="/css/mystyle.css" rel="stylesheet" type="text/css">
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="/js/plugins.js"></script>
+    <script src="/js/designesia.js"></script>	
 </head>
 
 <body id="homepage">

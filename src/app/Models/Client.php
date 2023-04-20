@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Client extends Model
 {
     use HasFactory;
+
+    public function images()
+    {
+        return $this->hasMany(Image::class, 'client_id', 'id');
+    }
 }

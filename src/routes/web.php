@@ -16,3 +16,4 @@ use App\Http\Controllers\SiteController;
 
 Route::get('/', [SiteController::class, 'home']);
 Route::get('/galleria', [SiteController::class, 'gallery']);
+Route::get('/galleria/{id}', [SiteController::class, 'clientGallery']);

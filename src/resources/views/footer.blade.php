@@ -16,11 +16,7 @@
     <a href="#" id="back-to-top"></a>
 </footer>
 <!-- footer close -->
-<!-- Javascript Files
-================================================== -->
-<script src="js/plugins.js"></script>
-<script src="js/designesia.js"></script>	
 
 <!-- RS5.0 Core JS Files -->
-<script src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-<script src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+<script src="/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script src="/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>

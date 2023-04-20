@@ -6,7 +6,7 @@
                 <!-- logo begin -->
                 <div id="logo">
                     <a href="12_index-artist.html">
-                        <img class="logo" src="images/logo.webp" height="70" alt=""> 
+                        <img class="logo" src="/images/logo.webp" height="70" alt=""> 
                         <!-- <span class="italic" style="font-size: 2em;">Star Events S.R.L.</span> -->
                     </a>
                 </div>

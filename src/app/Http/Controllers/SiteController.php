@@ -23,4 +23,16 @@ class SiteController extends Controller
             "clients" => $clients
         ]);
     }
+
+    public function clientGallery($id)
+    {
+        $client = Client::where('id', $id)->first();
+        $images = $client->images;
+
+        return view('layout', [
+            "page" => "galleriaCliente",
+            "images" => $images,
+            "client" => $client
+        ]);
+    }
 }
