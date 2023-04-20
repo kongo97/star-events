@@ -123,6 +123,7 @@ a.active
     .de_large-portfolio h2 
     {
         font-size: 1.5em;
+        letter-spacing: 14px;
         top: -30px;
     }
 }
