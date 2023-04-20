@@ -127,3 +127,8 @@ a.active
         top: -30px;
     }
 }
+
+.tp-bgimg
+{
+    background-size: contain !important;
+}
