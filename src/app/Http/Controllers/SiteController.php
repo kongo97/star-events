@@ -35,4 +35,11 @@ class SiteController extends Controller
             "client" => $client
         ]);
     }
+
+    public function contact()
+    {
+        return view('layout', [
+            "page" =>"contattaci"
+        ]);
+    }
 }

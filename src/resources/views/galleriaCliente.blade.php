@@ -5,46 +5,36 @@
 <link rel="stylesheet" href="/css/rev-settings.css" type="text/css">
 
 <div class="h100"></div>
+<div class="row text-center">
+    <h2 class="ultra-big wow fadeInUp" style="font-size: 4em;" data-wow-delay=".2s">{{ $client->name }}</h2>    
+</div>
 
         <!-- content begin -->
         <div id="content" style="margin-top: 50px;" class="no-top no-bottom">
 
-        	<div class="v-text">
-        	    <a href="#">facebook</a>
-        	    <a href="#">twitter</a>
-        	    <a href="#">instagram</a>
-        	</div>
 
 			<section id="section-slider" class="fullwidthbanner-container text-white" aria-label="section-slider">
+
                 <div id="slider-revolution">
                     <ul>
 						@foreach($images as $image)
 							<li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
 								<!--  BACKGROUND IMAGE -->
 								<img alt="" class="rev-slidebg" data-bgparallax="10" src="{{$image->url}}">
-								<div class="tp-caption tp-text fade" data-x="center" data-y="650" width="80%" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
-									{{ $client->name }}
+								<div class="tp-caption tp-text fade text-center" data-x="center" data-y="650" width="80%" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
+									{{ $image->city }} <br> {{ $image->description }}
 								</div>
 							</li>
 						@endforeach   
-
                     </ul>
                 </div>
             </section>
 			
 			<section id="section-text">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="de_large-portfolio no-bottom">
-                                <div class="d_inner">
-                                    <h2 class="ultra-big wow fadeInUp" data-wow-delay=".2s">{{ $client->name }}</h2>
-                                    <div class="d_image jarallax">
-                                        <img src="/images-artist/portfolio/1.jpg" alt="" class="img-fluid wow fadeInUp"> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                    <div class="row text-center">
+                        <span class="italic">Montecarlo <br> Tour Allestimento e Montaggio Vetrine di Louis Vuitton</span>
                     </div>
 
                     <div class="spacer-triple"></div>
