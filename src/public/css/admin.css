@@ -1,0 +1,89 @@
+body
+{
+    background-color: #232d45;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 100vh;
+}
+
+#aside 
+{
+    background-color: #1b253b;
+    position: absolute;
+    left: 0;
+    padding-top: 100px;
+    top: 5px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    min-height: 110vh;
+}
+
+.navbar-brand
+{
+    width: 16.66667%;
+}
+
+.menu-list li
+{
+    margin-top: 10px;
+}
+
+.menu-list li a
+{
+    color: #fff;
+}
+
+.menu-list li:hover a
+{
+    color: #fff;
+}
+
+.menu-list a 
+{
+    color: #fff;
+    height: 45px;
+    line-height: 29px;
+}
+
+.menu-list li ul
+{
+    border-left: 1px solid #232d45;
+}
+
+.menu-list a.is-active
+{
+    border-radius: 10px;
+    background-color: #232d45;
+}
+
+#aside a:hover
+{
+    border-radius: 10px;
+    background-color: #232d45;
+    color: #fff !important;
+}
+
+#aside a
+{
+    color: #fff;
+}
+
+#navbar
+{
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    border-radius: 10px;
+    height: 65px;
+    background-color: #28334e;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+#page
+{
+    background-color: #242d45;
+    border-radius: 10px;
+}
