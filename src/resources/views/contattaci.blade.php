@@ -19,7 +19,7 @@
                             <div class="text-center">
                                 <h2 class="wow fadeInUp">Dove siamo</h2>
                                 
-                                <img src="/images/map.png" alt="" height="300px" style="margin-bottom: 25px;">
+                                @include('maps')
 
                                 <p class="wow fadeInUp">Via Giuseppe Di Vittorio 20/D, 20068, Peschiera Borromeo (MI)</p>
 
