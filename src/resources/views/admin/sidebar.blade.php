@@ -16,6 +16,7 @@
             <ul>
                 <li><a>Home</a></li>
                 <li><a>Galleria</a></li>
+                <li><a>Eventi</a></li>
                 <li><a>Lavora con noi</a></li>
                 <li><a>Contattaci</a></li>
             </ul>

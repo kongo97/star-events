@@ -22,7 +22,7 @@
         <aside id="aside">
             <section class="column columns is-12">
                 @include('admin.sidebar')
-                <div id="page" class="column is-10">
+                <div id="page" class="columns column is-10 is-multiline">
                     @include($page)
                 </div>
             </section>
