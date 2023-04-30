@@ -31,17 +31,17 @@ body
     margin-top: 10px;
 }
 
-.menu-list li a
+.menu-list li .admin-link
 {
     color: #fff;
 }
 
-.menu-list li:hover a
+.menu-list li:hover .admin-link
 {
     color: #fff;
 }
 
-.menu-list a 
+.menu-list .admin-link 
 {
     color: #fff;
     height: 45px;
@@ -53,20 +53,20 @@ body
     border-left: 1px solid #232d45;
 }
 
-.menu-list a.is-active
+.menu-list .admin-link.is-active
 {
     border-radius: 10px;
     background-color: #232d45;
 }
 
-#aside a:hover
+#aside .admin-link:hover
 {
     border-radius: 10px;
     background-color: #232d45;
     color: #fff !important;
 }
 
-#aside a
+#aside .admin-link
 {
     color: #fff;
 }
@@ -95,6 +95,26 @@ body
     padding: 25px;
 }
 
+.table-header
+{
+    border-radius: 10px;
+    height: 35px;
+    line-height: 5px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.table-row
+{
+    background-color: #1b253b;
+    padding: 10px;
+    border-radius: 10px;
+    height: 70px;
+    line-height: 25px;
+    margin-top: 0px;
+}
+
 h2
 {
     font-size: 1em;
@@ -118,6 +138,16 @@ p
 .has-text-green
 {
     color: #155e75;
+}
+
+.is-green
+{
+    background-color: #155e75;
+}
+
+.button.is-green:hover
+{
+    background-color: #175a70;
 }
 
 .has-text-lightgreen
@@ -144,4 +174,62 @@ p
 {
     font-size: 0.9em;
     color: #64748b;
+}
+
+.admin-check 
+{
+    background-color: #28334e !important;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+}
+
+.admin-check:after 
+{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.admin-check-base:checked ~ .admin-check:after 
+{
+    display: block;
+}
+  
+  /* Style the checkmark/indicator */
+.admin-check:after 
+{
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #0c9488;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.admin-check-base
+{
+    opacity: 0;
+}
+
+.button
+{
+    border: none;
+    color: #fff;
+}
+
+.button:hover
+{
+    color: #fff;
+}
+
+.right
+{
+    float: right;
 }

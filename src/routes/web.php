@@ -20,5 +20,10 @@ Route::get('/galleria', [SiteController::class, 'gallery']);
 Route::get('/galleria/{id}', [SiteController::class, 'clientGallery']);
 Route::get('/contattaci', [SiteController::class, 'contact']);
 
-// backoffice
-Route::get('/admin', [AdminController::class, 'home']);
+// BACKOFFICE
+
+// home
+Route::get('/admin/home', [AdminController::class, 'home']);
+
+// edit clients
+Route::get('/admin/clients', [AdminController::class, 'editClients']);

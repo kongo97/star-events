@@ -19,7 +19,7 @@
                                 <a class="d_inner" href="12_single-artist.html">
                                     <h2 class="ultra-big wow fadeInUp" data-wow-delay=".2s">Star Events</h2>
                                     <div class="d_image">
-                                        <img src="images/home_back.webp" alt="" class="covered img-fluid wow fadeInUp">
+                                        <img src="/images/home_back.webp" alt="" class="covered img-fluid wow fadeInUp">
                                         <span class="italic">"La comunicazione visiva è uno degli elementi fondamentali per determinare il successo di un'azienda o di un progetto"</span>
                                     </div>
                                 </a>

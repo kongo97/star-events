@@ -4,22 +4,13 @@
             General
         </p>
         <ul class="menu-list">
-            <li><a>Dashboard</a></li>
-            <li><a>Settings</a></li>
+            <li><a class="admin-link">Dashboard</a></li>
+            <li><a class="admin-link">Settings</a></li>
         </ul>
         <p class="menu-label">
             Administration
         </p>
         <ul class="menu-list">
-            <li>
-            <a class="is-active">Pages</a>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Galleria</a></li>
-                <li><a>Eventi</a></li>
-                <li><a>Lavora con noi</a></li>
-                <li><a>Contattaci</a></li>
-            </ul>
-            </li>
+            <li><a class="admin-link">Clients</a></li>
         </ul>
     </div>
