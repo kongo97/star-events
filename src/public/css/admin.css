@@ -130,6 +130,13 @@ p
     margin-bottom: 15px;
 }
 
+.big-span
+{
+    font-size: 1.5em;
+    color: #c5d0dc;
+    position: absolute;
+}
+
 .has-text-orange
 {
     color: #d87708;
@@ -148,6 +155,26 @@ p
 .button.is-green:hover
 {
     background-color: #175a70;
+}
+
+.is-red
+{
+    background-color: #a82223;
+}
+
+.button.is-red:hover
+{
+    background-color: #961d1d;
+}
+
+.is-orange
+{
+    background-color: #d87708;
+}
+
+.button.is-orange:hover
+{
+    background-color: #c76d05;
 }
 
 .has-text-lightgreen
@@ -232,4 +259,18 @@ p
 .right
 {
     float: right;
+}
+
+.input
+{
+    background-color: #1b253b;
+    border: none;
+    color: #fff;
+}
+
+.absolute-button
+{
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }

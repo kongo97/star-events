@@ -27,3 +27,12 @@ Route::get('/admin/home', [AdminController::class, 'home']);
 
 // edit clients
 Route::get('/admin/clients', [AdminController::class, 'editClients']);
+
+// edit client
+Route::get('/admin/client/{id}', [AdminController::class, 'editClient']);
+
+// upload image
+Route::post('/admin/upload/image/{client_id}', [AdminController::class, 'uploadImage']);
+
+// delete image
+Route::get('/admin/delete/image/{image_id}', [AdminController::class, 'deleteImage']);

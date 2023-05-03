@@ -5,7 +5,7 @@
             <div class="column is-12">
                 <div class="columns is-multiline" style="padding: 25px; padding-top: 0px;">
                     <div class="table-header columns column is-12">
-                        <div class="column is-3">
+                        <div class="column is-4">
                             <span class="span-text">Client Name</span>
                         </div>
 
@@ -17,7 +17,7 @@
                             <span class="span-text">Status</span>
                         </div>
 
-                        <div class="column is-3">
+                        <div class="column is-2">
                             <span class="span-text">Actions</span>
                         </div>
                     </div>
@@ -32,24 +32,22 @@
                             </div>
 
                             <div class="column is-3">
-                                <span class="span-text">
-                                    <label class="checkbox">
-                                        <input type="checkbox" class="admin-check-base" checked>
-                                        <span class="admin-check"></span>
-                                        Active
-                                    </label>
-                                </span>
+                                @if($client->enabled)
+                                    <a href="#" class="button is-orange" style="margin-top: -7px;">Disable</a>
+                                @else
+                                    <a href="#" class="button is-green" style="margin-top: -7px;">Enable</a>
+                                @endif
                             </div>
 
                             <div class="column is-2">
                                 <span class="span-text">
-                                    <span class="material-symbols-outlined">
+                                    <a href="/admin/client/{{ $client->id }}" class="material-symbols-outlined">
                                         edit
-                                    </span>
+                                    </a>
 
-                                    <span class="material-symbols-outlined has-text-red">
+                                    <a class="material-symbols-outlined has-text-red">
                                         delete
-                                    </span>
+                                    </a>
                                 </span>
                             </div>
                         </div>
@@ -82,19 +80,15 @@
         </div>
     </div>
 
-    <h2>Clients Report</h2>
+    <h2>New Client</h2>
     <div class="panel">
         <div class="columns" style="padding: 25px;">
-            <div class="column">
+            <div class="column is-12">
                 <span class="material-symbols-outlined has-text-lightgreen title-icon">
                     face
                 </span>
-
-                <br>
-                <br>
-
-                <p>Total Clients <span class="material-symbols-outlined" style="font-size: 14px;">info</span></p>
-                <h2>{{ count($clients) }}</h2>
+                
+                <a href="#" class="button is-green right">Create</a>  
             </div>
         </div>
     </div>
