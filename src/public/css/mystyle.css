@@ -151,3 +151,8 @@ a.active
 {
     background-size: contain !important;
 }
+
+.skill-bar
+{
+    margin-bottom: 70px;
+}

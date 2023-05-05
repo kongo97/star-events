@@ -51,8 +51,8 @@
                                         info
                                     </span>
                                     Allestimenti
-                                    <div class="free-progress">
-                                        Allestimenti in Italia ed Europa con personale qualificato e mezzi di proprietà
+                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
+                                        Servizi di allestimenti in Italia ed Europa con personale qualificato e mezzi di proprietà adeguati
                                     </div>
                                 </div>
                             </div>
@@ -63,8 +63,8 @@
                                         info
                                     </span>
                                     Manutenzioni
-                                    <div class="free-progress">
-                                        Manutenzioni generiche
+                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
+                                        Servizi di manutenzioni generiche
                                     </div>
                                 </div>
                             </div>
@@ -75,8 +75,8 @@
                                         info
                                     </span>
                                     Traslochi
-                                    <div class="free-progress">
-                                        Traslochi
+                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
+                                        Servizi di trasloco con mezzi di proprietà
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                                         info
                                     </span>
                                     Pubblicità e marketing
-                                    <div class="free-progress">
+                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
                                         Servizi di pubblicità e marketing in tutta Italia
                                     </div>
                                 </div>
@@ -101,9 +101,9 @@
                                     <span class="material-symbols-outlined yellow info-left">
                                         info
                                     </span>
-                                    Logistica e di stoccaggio materiale
-                                    <div class="free-progress">
-                                        Servizio logistica e di stoccaggio materiale c/o i propri magazzini
+                                    Logistica e stoccaggio
+                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
+                                        Servizi di logistica e stoccaggio presso i nostri magazzini
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                         info
                                     </span>
                                     Imballaggio e facchinaggio
-                                    <div class="free-progress">
+                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
                                         Servizi di imballaggio e facchinaggio
                                     </div>
                                 </div>
@@ -128,9 +128,9 @@
                                     <span class="material-symbols-outlined yellow info-left">
                                         info
                                     </span>
-                                    Montaggio mobili di ogni genere
-                                    <div class="free-progress">
-                                        Montaggio mobili di ogni genere
+                                    Montaggio Mobilio
+                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
+                                        Servizi di montaggio mobili e arredamenti di ogni genere in tutta Italia
                                     </div>
                                 </div>
                             </div>
