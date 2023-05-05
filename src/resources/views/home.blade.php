@@ -6,25 +6,25 @@
         <div id="content" class="no-top no-bottom">
 
         	<div class="v-text">
-        	    <a href="#">facebook</a>
-        	    <a href="#">twitter</a>
-        	    <a href="#">instagram</a>
+        	    <a target="_blank" href="http://www.facebook.com/StarEventsAllestimenti/">facebook</a>
+        	    <a target="_blank" href="https://www.instagram.com/star.events.allestimenti">instagram</a>
         	</div>
 			
 			<section id="section-text">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" style="text-align: center;">
                         <div class="col-md-12">
                             <div class="de_large-portfolio">
                                 <a class="d_inner" href="12_single-artist.html">
                                     <h2 class="ultra-big wow fadeInUp" data-wow-delay=".2s">Star Events</h2>
                                     <div class="d_image">
                                         <img src="/images/home_back.webp" alt="" class="covered img-fluid wow fadeInUp">
-                                        <span class="italic">"La comunicazione visiva è uno degli elementi fondamentali per determinare il successo di un'azienda o di un progetto"</span>
                                     </div>
                                 </a>
                             </div>
                         </div>
+
+                        <span class="italic slogan">"La comunicazione visiva è uno degli elementi fondamentali per determinare il successo di un'azienda o di un progetto"</span>
                     </div>
 
                     <div class="row">

@@ -18,14 +18,33 @@
 
 .covered:hover
 {
-    -webkit-filter: none; /* Safari 6.0 - 9.0 */
-    filter: none;
+    -webkit-filter: none !important; /* Safari 6.0 - 9.0 */
+    filter: none !important;
+    opacity: 0.8 !important;
+}
+
+.de_large-portfolio a:hover .d_image {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.image-gallery-text
+{
+    position: absolute;
+    top: 10px;
 }
 
 .italic
 {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 1.3em;
+}
+
+.slogan
+{
+    font-size: 2.3em;
+    line-height: 50px;
+    margin-top: -140px;
 }
 
 .firma

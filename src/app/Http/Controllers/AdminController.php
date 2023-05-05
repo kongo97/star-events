@@ -44,8 +44,8 @@ class AdminController extends Controller
         ]);
 
         if($request->file('resume')){
-            $file= $request->file('resume');
-            $filename= $file->getClientOriginalName();
+            $file = $request->file('resume');
+            $filename = $file->getClientOriginalName();
             $file->move(public_path('images'), $filename);
         }
 
@@ -66,5 +66,53 @@ class AdminController extends Controller
         $image->delete();
 
         return back()->withInput();
+    }
+
+    public function editClientName(Request $request, $client_id)
+    {
+        $new_name = $request->post('name');
+
+        $client = Client::find($client_id);
+        $client->name = $new_name;
+        $client->save();
+
+        return back()->withInput();
+    }
+
+    public function disableClient($client_id)
+    {
+        $client = Client::find($client_id);
+        $client->enabled = false;
+        $client->save();
+
+        return back()->withInput();
+    }
+
+    public function enableClient($client_id)
+    {
+        $client = Client::find($client_id);
+        $client->enabled = true;
+        $client->save();
+
+        return back()->withInput();
+    }
+
+    public function deleteClient($client_id)
+    {
+        $client = Client::find($client_id);
+        $client->delete();
+
+        return back()->withInput();
+    }
+
+    public function createClient()
+    {
+        $client = Client::create([
+            "name" => "New Client",
+        ]);
+
+        $new_id = $client->id;
+
+        return redirect("/admin/client/$new_id");
     }
 }

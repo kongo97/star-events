@@ -21,9 +21,9 @@
 							<li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="">
 								<!--  BACKGROUND IMAGE -->
 								<img alt="" class="rev-slidebg" data-bgparallax="10" src="{{$image->url}}">
-								<div class="tp-caption tp-text fade text-center" data-x="center" data-y="650" width="80%" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
-									{{ $image->city }} <br> {{ $image->description }}
+								<div class="tp-caption tp-text fade text-center italic" data-x="center" data-y="650" width="80%" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
 								</div>
+                                <div class="image-gallery-text">{{ $image->city }} <br> {{ $image->description }}</div>
 							</li>
 						@endforeach   
                     </ul>
@@ -34,21 +34,10 @@
                 <div class="container">
 
                     <div class="row text-center">
-                        <span class="italic">Montecarlo <br> Tour Allestimento e Montaggio Vetrine di Louis Vuitton</span>
+                        <span class="italic">{{ $image->city }} <br> {{ $image->description }}</span>
                     </div>
 
                     <div class="spacer-triple"></div>
-
-                    <div class="row">
-                        <div class="col-md-6 offset-md-3">
-                            <div class="text-center">
-                                <h2 class="wow fadeInUp">About Project</h2>
-                                <p class="wow fadeInUp">Ut in amet laborum amet velit aliquip excepteur sit deserunt amet tempor voluptate do cillum labore aute in ullamco cupidatat sunt id dolore duis duis excepteur ea quis anim officia in ut nostrud esse et in. Ad occaecat labore tempor ut anim amet mollit officia ullamco laborum dolor ex duis incididunt pariatur velit laboris cillum aliquip ad nostrud cupidatat labore voluptate voluptate ad pariatur adipisicing irure ut id. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="spacer-double"></div>
 
                     <div class="row">
                         <div class="col-md-12 text-center">
@@ -106,7 +95,7 @@
                 jQuery("#slider-revolution").revolution({
                     sliderType: "standard",
                     sliderLayout: "fullscreen",
-                    delay: 5000,
+                    delay: 2000,
                     navigation: {
                         arrows: {
                             enable: true

@@ -33,9 +33,9 @@
 
                             <div class="column is-3">
                                 @if($client->enabled)
-                                    <a href="#" class="button is-orange" style="margin-top: -7px;">Disable</a>
+                                    <a href="/admin/disable/client/{{ $client->id }}" class="button is-orange" style="margin-top: -7px;">Disable</a>
                                 @else
-                                    <a href="#" class="button is-green" style="margin-top: -7px;">Enable</a>
+                                    <a href="/admin/enable/client/{{ $client->id }}" class="button is-green" style="margin-top: -7px;">Enable</a>
                                 @endif
                             </div>
 
@@ -45,17 +45,13 @@
                                         edit
                                     </a>
 
-                                    <a class="material-symbols-outlined has-text-red">
+                                    <a href="/admin/delete/client/{{ $client->id }}" class="material-symbols-outlined has-text-red">
                                         delete
                                     </a>
                                 </span>
                             </div>
                         </div>
                     @endforeach
-
-                    <div class="column is-12">
-                        <a href="#" class="button is-green right">Save</a>  
-                    </div>
                 </div>
             </div>
         </div>
@@ -88,7 +84,7 @@
                     face
                 </span>
                 
-                <a href="#" class="button is-green right">Create</a>  
+                <a href="/admin/create/client" class="button is-green right">Create</a>  
             </div>
         </div>
     </div>

@@ -6,9 +6,8 @@
         <div id="content" class="no-top no-bottom">
 
         	<div class="v-text">
-        	    <a href="#">facebook</a>
-        	    <a href="#">twitter</a>
-        	    <a href="#">instagram</a>
+        	    <a target="_blank" href="http://www.facebook.com/StarEventsAllestimenti/">facebook</a>
+        	    <a target="_blank" href="https://www.instagram.com/star.events.allestimenti">instagram</a>
         	</div>
 			
 			<section id="section-text">
@@ -48,10 +47,22 @@
                                 <div class="info-text">
                                     <span class="title">Contatti telefonici</span>
                                     <span class="val" style="float: left;">
-                                        <span style="float: left;">(+39) 3803480216</span> 
-                                        <span style="float: right;">(+39) 3803480217</span>
-                                        <span style="float: left;">(+39) 3803480218</span>
-                                        <span style="float: right;">(+39) 3803480219</span>
+                                        <span style="float: left;">
+                                            <span class="title">Yuri</span>
+                                            (+39) 3803480216
+                                        </span> 
+                                        <span style="float: right;">
+                                            <span class="title">Andrea</span>
+                                            (+39) 3664521865
+                                        </span>
+                                        <span style="float: left;">
+                                            <span class="title">Fabio</span>
+                                            (+39) 3387342571
+                                        </span> 
+                                        <span style="float: right;">
+                                            <span class="title">Ufficio</span>
+                                            (+39) 0392627245
+                                        </span>
                                     </span>
                                 </div>
 

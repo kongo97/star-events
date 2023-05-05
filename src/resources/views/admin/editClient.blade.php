@@ -1,10 +1,11 @@
 <div class="column is-5">
     <h2>Edit Client</h2>
     <div class="panel">
-        <div class="panel-block">
-            <input type="text" class="input" value="{{ $client->name }}">
-            <a href="#" class="button is-green">Edit</a>
-        </div>
+        <form class="panel-block" method="post" action="/admin/edit/client/name/{{ $client->id }}">
+            @csrf
+            <input type="text" class="input" name="name" value="{{ $client->name }}">
+            <input type="submit" class="button is-green" style="margin-left: 10px;" value="Edit">
+        </form>
     </div>
 </div>
 
@@ -13,12 +14,16 @@
     <div class="panel">
         <div class="panel-block">
             @if($client->enabled)
-                <a href="#" class="button is-orange">Disable</a>
+                <form method="get" action="/admin/disable/client/{{ $client->id }}">
+                    <input type="submit" class="button is-orange" value="Disable">
+                </form>
             @else
-                <a href="#" class="button is-green">Enable</a>
+                <form method="get" action="/admin/enable/client/{{ $client->id }}">
+                    <input type="submit" class="button is-green" value="Enable">
+                </form>
             @endif
             
-            <a href="#" class="button is-red" style="margin-left: 25px;">
+            <a href="/admin/delete/client/{{ $client->id }}" class="button is-red" style="margin-left: 25px;">
                 <span class="material-symbols-outlined">
                     delete
                 </span>
@@ -49,7 +54,7 @@
             <form id="form-image" class="file is-primary" method="post" enctype="multipart/form-data" action="/admin/upload/image/{{ $client->id }}">
                 @csrf
                 <label class="file-label">
-                    <input class="file-input" id="uploaded_image" type="file" name="resume">
+                    <input class="file-input" id="uploaded_image" accept="image/jpeg, image/png, image/jpg" type="file" name="resume">
                     <span class="file-cta">
                     <span class="material-symbols-outlined has-text-lightgreen" style="font-size: 34px;">
                         imagesmode

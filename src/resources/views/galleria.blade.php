@@ -4,9 +4,8 @@
         <div id="content" style="margin-top: 50px;" class="no-top no-bottom">
 
         	<div class="v-text">
-        	    <a href="#">facebook</a>
-        	    <a href="#">twitter</a>
-        	    <a href="#">instagram</a>
+        	    <a target="_blank" href="http://www.facebook.com/StarEventsAllestimenti/">facebook</a>
+        	    <a target="_blank" href="https://www.instagram.com/star.events.allestimenti">instagram</a>
         	</div>
 			
 			<section id="section-text">

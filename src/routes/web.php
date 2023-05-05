@@ -36,3 +36,18 @@ Route::post('/admin/upload/image/{client_id}', [AdminController::class, 'uploadI
 
 // delete image
 Route::get('/admin/delete/image/{image_id}', [AdminController::class, 'deleteImage']);
+
+// edit client name
+Route::post('/admin/edit/client/name/{client_id}', [AdminController::class, 'editClientName']);
+
+// disable client
+Route::get('/admin/disable/client/{client_id}', [AdminController::class, 'disableClient']);
+
+// enable client
+Route::get('/admin/enable/client/{client_id}', [AdminController::class, 'enableClient']);
+
+// delete client
+Route::get('/admin/delete/client/{client_id}', [AdminController::class, 'deleteClient']);
+
+// create new client
+Route::get('/admin/create/client', [AdminController::class, 'createClient']);

@@ -9,6 +9,12 @@ class Client extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        "name",
+        "enabled",
+        "description",
+    ];
+
     public function images()
     {
         return $this->hasMany(Image::class, 'client_id', 'id');
