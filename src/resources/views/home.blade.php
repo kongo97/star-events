@@ -15,12 +15,12 @@
                     <div class="row" style="text-align: center;">
                         <div class="col-md-12">
                             <div class="de_large-portfolio">
-                                <a class="d_inner" href="12_single-artist.html">
+                                <div class="d_inner">
                                     <h2 class="ultra-big wow fadeInUp" data-wow-delay=".2s">Star Events</h2>
                                     <div class="d_image">
                                         <img src="/images/home_back.webp" alt="" class="covered img-fluid wow fadeInUp">
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
 
@@ -46,97 +46,68 @@
                         <div class="col-md-12 text-center">
                             <h2 class="wow fadeInUp">I nostri servizi</h2>
                         </div>
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="skill-bar style-2">
-                                <div class="min-width">
-                                    <span class="material-symbols-outlined yellow info-left">
-                                        info
-                                    </span>
-                                    Allestimenti
-                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
-                                        Servizi di allestimenti in Italia ed Europa con personale qualificato e mezzi di proprietà adeguati
-                                    </div>
+
+                        <div class="row">
+                            <div class="col-md-6" style="text-align: center;">
+                                <h3 class="wow fadeInUp">Allestimenti</h3>
+                                <div class="servizi-text">
+                                    Servizi di allestimenti in Italia ed Europa con personale qualificato e mezzi di proprietà adeguati
                                 </div>
                             </div>
 
-                            <div class="skill-bar style-2">
-                                <div class="min-width">
-                                    <span class="material-symbols-outlined yellow info-left">
-                                        info
-                                    </span>
-                                    Manutenzioni
-                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
-                                        Servizi di manutenzioni generiche
-                                    </div>
+                            <div class="col-md-6" style="text-align: center;">
+                                <h3 class="wow fadeInUp">Pubblicità e marketing</h3>
+                                <div class="servizi-text">
+                                    Servizi di pubblicità e marketing in tutta Italia
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="spacer-double"></div>
+
+                        <div class="row">
+                            <div class="col-md-6" style="text-align: center;">
+                                <h3 class="wow fadeInUp">Imballaggio e facchinaggio</h3>
+                                <div class="servizi-text">
+                                    Servizi di imballaggio e facchinaggio
                                 </div>
                             </div>
 
-                            <div class="skill-bar style-2">
-                                <div class="min-width">
-                                    <span class="material-symbols-outlined yellow info-left">
-                                        info
-                                    </span>
-                                    Traslochi
-                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
-                                        Servizi di trasloco con mezzi di proprietà
-                                    </div>
+                            <div class="col-md-6" style="text-align: center;">
+                                <h3 class="wow fadeInUp">Manutenzioni</h3>
+                                <div class="servizi-text">
+                                    Servizi di manutenzioni generiche
                                 </div>
                             </div>
-
                         </div>
 
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="skill-bar style-2">
-                                <div class="min-width">
-                                    <span class="material-symbols-outlined yellow info-left">
-                                        info
-                                    </span>
-                                    Pubblicità e marketing
-                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
-                                        Servizi di pubblicità e marketing in tutta Italia
-                                    </div>
+                        <div class="spacer-double"></div>
+
+                        <div class="row">
+                            <div class="col-md-6" style="text-align: center;">
+                                <h3 class="wow fadeInUp">Logistica e stoccaggio</h3>
+                                <div class="servizi-text">
+                                    Servizi di logistica e stoccaggio presso i nostri magazzini
                                 </div>
                             </div>
 
-                            <div class="skill-bar style-2">
-                                <div class="min-width">
-                                    <span class="material-symbols-outlined yellow info-left">
-                                        info
-                                    </span>
-                                    Logistica e stoccaggio
-                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
-                                        Servizi di logistica e stoccaggio presso i nostri magazzini
-                                    </div>
+                            <div class="col-md-6" style="text-align: center;">
+                                <h3 class="wow fadeInUp">Montaggio Mobilio</h3>
+                                <div class="servizi-text">
+                                    Servizi di montaggio mobili e arredamenti di ogni genere in tutta Italia
                                 </div>
                             </div>
-
                         </div>
 
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="skill-bar style-2">
-                                <div class="min-width">
-                                    <span class="material-symbols-outlined yellow info-left">
-                                        info
-                                    </span>
-                                    Imballaggio e facchinaggio
-                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
-                                        Servizi di imballaggio e facchinaggio
-                                    </div>
+                        <div class="spacer-double"></div>
+
+                        <div class="row">
+                            <div class="col-md-6" style="text-align: center;">
+                                <h3 class="wow fadeInUp">Traslochi</h3>
+                                <div class="servizi-text">
+                                    Servizi di trasloco con mezzi di proprietà
                                 </div>
                             </div>
-
-                            <div class="skill-bar style-2">
-                                <div class="min-width">
-                                    <span class="material-symbols-outlined yellow info-left">
-                                        info
-                                    </span>
-                                    Montaggio Mobilio
-                                    <div class="free-progress" style="background-size: cover;position: absolute;right: 10px;left: 10px;">
-                                        Servizi di montaggio mobili e arredamenti di ogni genere in tutta Italia
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
 
