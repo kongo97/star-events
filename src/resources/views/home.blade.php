@@ -27,6 +27,8 @@
                         <span class="italic slogan">"La comunicazione visiva è uno degli elementi fondamentali per determinare il successo di un'azienda o di un progetto"</span>
                     </div>
 
+                    <div class="spacer-triple"></div>
+
                     <div class="row">
                         <div class="col-md-6 offset-md-3">
                             <div class="text-center">
