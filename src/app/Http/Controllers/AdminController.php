@@ -50,7 +50,7 @@ class AdminController extends Controller
         }
 
         $request->validate([
-            'resume' => 'required|image:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=50,min_height=50,max_width=1000,max_height=1000',
+            'resume' => 'required|image:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=50,min_height=50,max_width=5000,max_height=5000',
         ]);
 
         if($request->file('resume')){
