@@ -39,8 +39,18 @@ class AdminController extends Controller
 
     public function uploadImage(Request $request, $client_id)
     {
+        $uploadedFile = $request->file('resume');
+        $extension = $uploadedFile->getClientOriginalExtension();
+
+        $allowedExtensions = ['jpg', 'png', 'jpeg', 'gif', 'svg'];
+
+        if (!in_array($extension, $allowedExtensions)) {
+            // L'estensione del file non è consentita, puoi gestire l'errore qui
+            return back()->withErrors(['resume' => 'Il campo resume deve essere un file di tipo: jpg, png, jpeg, gif, svg.']);
+        }
+
         $request->validate([
-            'resume' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000',
+            'resume' => 'required|image:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=50,min_height=50,max_width=1000,max_height=1000',
         ]);
 
         if($request->file('resume')){

@@ -23,7 +23,7 @@
 								<img alt="" class="rev-slidebg" data-bgparallax="10" src="{{$image->url}}">
 								<div class="tp-caption tp-text fade text-center italic" data-x="center" data-y="650" width="80%" data-width="none" data-height="none" data-whitespace="nowrap"  data-speed="1200" data-start="400" data-easing="easeInOutExpo">
 								</div>
-                                <div class="image-gallery-text">{{ $image->city }} <br> {{ $image->description }}</div>
+                                <!-- <div class="image-gallery-text">{{ $image->city }} <br> {{ $image->description }}</div> -->
 							</li>
 						@endforeach   
                     </ul>
@@ -39,34 +39,36 @@
 
                     <div class="spacer-triple"></div>
 
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h2 class="wow fadeInUp">Details</h2>
-                        </div>
-                        <div class="col-md-4 offset-md-4 wow fadeInUp"> 
-                            <div class="project-details">
-                                <div class="info-text">
-                                    <span class="title">Date Completed</span>
-                                    <span class="val">March 2022</span>
-                                </div>
+                    <!-- 
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h2 class="wow fadeInUp">Details</h2>
+                            </div>
+                            <div class="col-md-4 offset-md-4 wow fadeInUp"> 
+                                <div class="project-details">
+                                    <div class="info-text">
+                                        <span class="title">Date Completed</span>
+                                        <span class="val">March 2022</span>
+                                    </div>
 
-                                <div class="info-text">
-                                    <span class="title">Timeline</span>
-                                    <span class="val">1 year</span>
-                                </div>
+                                    <div class="info-text">
+                                        <span class="title">Timeline</span>
+                                        <span class="val">1 year</span>
+                                    </div>
 
-                                <div class="info-text">
-                                    <span class="title">Client</span>
-                                    <span class="val">Envato Corps</span>
-                                </div>
+                                    <div class="info-text">
+                                        <span class="title">Client</span>
+                                        <span class="val">Envato Corps</span>
+                                    </div>
 
-                                <div class="info-text">
-                                    <span class="title">Category</span>
-                                    <span class="val">Architecture Design</span>
-                                </div>
+                                    <div class="info-text">
+                                        <span class="title">Category</span>
+                                        <span class="val">Architecture Design</span>
+                                    </div>
+                            </div>
+                            </div>
                         </div>
-                        </div>
-                    </div>
+                    -->
 
                 </div>
             </section>
