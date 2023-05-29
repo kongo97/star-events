@@ -33,9 +33,11 @@
 			<section id="section-text">
                 <div class="container">
 
+                    <!--
                     <div class="row text-center">
                         <span class="italic">{{ $image->city }} <br> {{ $image->description }}</span>
                     </div>
+                    -->
 
                     <div class="spacer-triple"></div>
 
