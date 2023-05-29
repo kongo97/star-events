@@ -204,7 +204,7 @@
 
                         map.setOptions({ styles: styles[styleSelector] });
 
-                        var marker = new google.maps.Marker({position: new google.maps.LatLng(45.4313814,9.2826141)});
+                        var marker = new google.maps.Marker({position: new google.maps.LatLng(45.430846,9.287308)});
 
                         marker.setMap(map);
                     }
