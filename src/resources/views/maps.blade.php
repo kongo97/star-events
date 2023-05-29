@@ -3,7 +3,7 @@
                 <script>
                     function myMap() {
                         var mapProp= {
-                            center:new google.maps.LatLng(45.4313814,9.2826141),
+                            center:new google.maps.LatLng(45.4309042,9.2767647),
                             zoom:14,
                         };
 
