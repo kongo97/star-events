@@ -19,7 +19,7 @@
 										<h2 class="ultra-big wow fadeInUp" data-wow-delay=".2s">{{ $client->name }}</h2>
 										<div class="d_image">
 											<img src="/images/1.webp" alt="" width="70%" style="margin-left: 15%;" class="img-fluid wow fadeInUp covered">
-											<!-- <span class="italic">Montecarlo <br> Tour Allestimento e Montaggio Vetrine di Louis Vuitton</span> -->
+											<span class="italic">Città <br> DD-MM-YYYY</span>
 										</div>
 									</a>
 								</div>
